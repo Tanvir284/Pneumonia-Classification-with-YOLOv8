@@ -9,24 +9,7 @@
 
 ---
 
-## 📋 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Key Features](#key-features)
-- [System Architecture](#system-architecture)
-- [Technical Stack](#technical-stack)
-- [Dataset Information](#dataset-information)
-- [Installation & Setup](#installation--setup)
-- [Project Structure](#project-structure)
-- [Model Architecture](#model-architecture)
-- [Training Pipeline](#training-pipeline)
-- [Results & Performance](#results--performance)
-- [Implementation Details](#implementation-details)
-- [Usage Guide](#usage-guide)
-- [API Documentation](#api-documentation)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -269,25 +252,14 @@ pillow>=9.5.0
 
 | Aspect | Details |
 |--------|---------|
-| **Source** | Chest X-ray Images (COVID-19, Normal, Pneumonia) |
-| **Total Images** | ~5,800+ images |
-| **Image Format** | JPEG/PNG, Grayscale |
+| **Source** | Chest X-ray Images ( Normal, Pneumonia) |
+| **Total Images** | 282 images |
+| **Image Format** | JPEG|
 | **Image Size** | Variable (typically 256x256 to 1024x1024) |
-| **Class Distribution** | 2-3 classes (Normal, Bacterial, Viral) |
+| **Class Distribution** | 3 classes (Normal, Bacterial, Viral) |
 | **Preprocessing** | Normalized to 640x640 |
 
-### Class Distribution
 
-```
-Dataset Statistics:
-├─ Normal Cases: ~1,500 images (26%)
-├─ Bacterial Pneumonia: ~2,500 images (42%)
-└─ Viral Pneumonia: ~1,800 images (32%)
-
-Train/Val/Test Split:
-├─ Training Set: 4,000 images (70%)
-├─ Validation Set: 900 images (15%)
-└─ Test Set: 900 images (15%)
 ```
 
 ### Data Augmentation Strategies
